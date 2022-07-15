@@ -327,18 +327,7 @@ p {
 }
 
 
-.wrapper h1{
-	font-size: 35px;
-	margin: 25px 0;
-	text-align: center;
-	font-weight: 800;
-	color: white;
 
-}
-.wrapper p{
-	font-size: 20px;
-	color: beige;
-}
 
 .content-box{
 	display: flex;
@@ -346,10 +335,13 @@ p {
 	flex-wrap: wrap;
 	width: 1000px;
 	margin-top: 30px;
+	margin-left: 250px;
+	
+	
 }
 
 .card{
-	min-height: 220px;
+	min-height: 200px;
 	width: 300px;
 	padding: 30px;
 	border-radius: 5px;
@@ -371,7 +363,7 @@ p {
 
 .card h2{
 	margin-bottom: 12px;
-	font-weight: 400;
+	font-weight: 200;
 	text-align: center;
 
 }
@@ -392,7 +384,7 @@ p {
 
 }
 .card:hover h2{
-	font-weight: 700;
+	font-weight: 200;
 	color:lightcyan ;
 	
 
@@ -426,18 +418,18 @@ p {
 
 
 
-.skillcontainer{
+/* .skillcontainer{
 	display: flex;
 	align-items: center;
     text-align: center;
 	
-}
+} */
 
 #services{
 	/* margin-top: 0px; */
 	padding-top: 100px;
 }
-.skillsectionlist{
+/* .skillsectionlist{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -613,4 +605,52 @@ p {
 
 .email>i{
 	color: lightskyblue;
+} */
+
+
+
+.course-item {
+	width: 250px;
+	margin: 0 15px 30px;
+	background-color: white;
+
 }
+
+.course-img {
+	border-radius: 10px;
+	overflow: hidden;
+	transition: all 0.5s ease;
+	text-align: center;
+}
+
+.course-item:hover .course-img {
+	transform: scale(0.92);
+	box-shadow: red;
+}
+
+.course-info {
+	padding: 15px 0;
+}
+
+.course-info h3 {
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: capitalize;
+	color: black;
+	margin-left: 4px;
+
+}
+
+
+.skill-header1{
+	color: red;
+}
+
+.skill_item{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+
