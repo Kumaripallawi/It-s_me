@@ -281,7 +281,7 @@ p {
 	color: white;
 }
 
-@media  screen and (max-width:950px) {
+@media  screen and (max-width:960px) {
 	.nav{
 		display: none;
 	}
@@ -553,4 +553,191 @@ p {
 
 p a{
 	color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+
+@media(max-width: 991px) {
+	.home-section .h-100 {
+		padding: 100px 0;
+	}
+
+	.header .nav-toggler {
+		display: flex;
+		margin-right: 15px;
+
+	}
+
+	.header .nav {
+		width: 100%;
+		position: absolute;
+		background-color: var(--dark-700);
+		top: 100%;
+		left: 0;
+		visibility: hidden;
+		opacity: 0;
+
+	}
+
+	.header #nav_check:checked~.nav {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.header .nav ul li {
+		margin: 0;
+		display: block;
+	}
+
+	.home-text h1 {
+		font-size: 30px;
+	}
+
+	.home-text h1 span::after {
+		bottom: 10px;
+	}
+
+	.home-text h2 {
+		font-size: 20px;
+	}
+
+	.home-img {
+		margin-top: 100px;
+		width: 70%;
+	}
+
+	.home-course-item {
+		height: 60px;
+		width: 60px;
+		font-size: 12px;
+	}
+
+	.design-item {
+		justify-content: center;
+	}
+
+	.fun-facts-img {
+		display: none;
+	}
+
+	.course-item,
+	.why-us-item {
+		width: calc(50% - 30px);
+	}
+
+	.footer-item {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media(max-width: 767px) {
+	.home-section .h-100 {
+		padding: 100px 0;
+	}
+
+	.home-text h2 {
+		font-size: 35px;
+	}
+
+	.home-text h2 {
+		font-size: 18px;
+	}
+
+	.home-text,
+	.home-img .fun-facts-img,
+	.fun-facts-items {
+		width: 100%;
+	}
+
+	.fun-facts-items {
+		margin-top: 50px;
+	}
+
+	.section-title h2 {
+		font-size: 30px;
+	}
+
+	.sec-padding {
+		padding: 70px 0;
+	}
+
+	.design-item {
+		justify-content: center;
+	}
+
+	.fun-facts-img {
+		display: none;
+	}
+}
+
+@media(max-width: 575px) {
+
+	.why-us-item,
+	.course-item,
+	.fun-facts-item {
+		width: calc(100% - 30px);
+	}
+
+	.home-section .h-100 {
+		padding: 100px 0;
+	}
+
+	.review-item,
+	.design-item,
+	.design-img,
+	.footer-item {
+		width: 100%;
+	}
+
+	.review-item {
+		text-align: center;
+	}
+
+	.design-item {
+		justify-content: center;
+	}
+
+	.fun-facts-img {
+		display: none;
+	}
+
+} */
+
+
+@media screen and (max-width:1120px) {
+	.course-item{
+	  
+		
+	
+		
+		width:100%;
+		width: calc(50% - 30px);
+	    
+	}
+} 
+
+
+@media screen and (max-width: 978px){
+
+	.heading  {
+		
+		color: #24caac;
+		justify-content: center;
+		text-align: center;
+		display: flex;
+		
+	}
+	
+	
 }
